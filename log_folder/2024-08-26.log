@@ -1,0 +1,24 @@
+2024-08-26 20:07:53 | INFO     | __main__:main:19 - This is a info log
+2024-08-26 20:07:53 | ERROR    | __main__:main:21 - This is a error log
+2024-08-26 20:07:53 | WARNING  | __main__:main:22 - This is a warning log
+2024-08-26 20:07:53 | CRITICAL | __main__:main:23 - This is a critical log
+2024-08-26 20:07:53 | SUCCESS  | __main__:main:24 - This is a success log
+2024-08-26 20:07:53 | ERROR    | __main__:main:25 - This is a exception log
+NoneType: None
+2024-08-26 20:07:53 | ERROR    | __main__:main:28 - An error has been caught in function 'main', process 'MainProcess' (15268), thread 'MainThread' (13740):
+Traceback (most recent call last):
+
+  File "C:\Users\Synesis\Desktop\loguru\demo.py", line 31, in <module>
+    main()
+    └ <function main at 0x0000029797316CA0>
+
+> File "C:\Users\Synesis\Desktop\loguru\demo.py", line 28, in main
+    divide(1,0)
+    └ <function divide at 0x0000029797316980>
+
+  File "C:\Users\Synesis\Desktop\loguru\demo.py", line 13, in divide
+    return x / y
+           │   └ 0
+           └ 1
+
+ZeroDivisionError: division by zero
