@@ -1,5 +1,13 @@
 ### How to Get Started with Loguru for Basic Logging
 
+As a beginner in Python, especially in the field of machine learning, it’s common to rely heavily on `print` statements for debugging and tracking the flow of your code. However, as projects grow in complexity, this approach can become problematic. Print statements can clutter your code and make it difficult to trace issues in a production environment. 
+
+**The Solution? Logging.**
+
+Logging is a powerful way to monitor your application. It allows you to keep track of events, catch exceptions, and understand what your code is doing in real-time—all without polluting your codebase with `print` statements.
+
+
+
 ```python
 from loguru import logger
 
